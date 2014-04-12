@@ -2,7 +2,13 @@
 
 Tiny emacs minor mode for toggling between multiple major modes.
 
-To use, call =tog-setup= with a list of modes you wish to toggle
+To use, place =tog-mode.el= in your load-path, and run:
+
+#+begin_src emacs-lisp
+(require 'tog-mode)
+#+end_src
+
+You can now call =tog-setup= with a list of modes you wish to toggle
 between. For example:
 
 #+begin_src emacs-lisp
